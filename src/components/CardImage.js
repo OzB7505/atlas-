@@ -3,7 +3,7 @@ import '../App.css';
 
 function CardImage(props) {
   return(
-    <div className="card-image">{props.img}</div>
+    <div className="card-image" style={{backgroundImage:"url("+ props.image + ")"}}></div> 
   );
 }
 

@@ -20,8 +20,9 @@ function App() {
               return(<Card name = {island.name}
                            description = {island.description}
                            image = {island.image}
-                           lantitude = {island.coords.lat}
-                           longitude = {island.coords.lon}/>)
+                           lat = {island.coords.lat}
+                           lon = {island.coords.lon}
+                           wiki = {island.wiki}/>)
           })}
 
         </ul>

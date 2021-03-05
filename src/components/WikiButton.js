@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 
+
 function WikiButton(props) {
   return(
     <a href={props.wiki} target="_blank" rel="noopener noreferrer">
